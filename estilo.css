@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   position: relative;
+   background-color: rgb(241, 241, 211);
+   background-size: cover;
+   height: 100%
+}
+.humor {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+}
+.t1 {
+    width:420px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 5%;
+    color: #333;
+}
+
+.detector-butao{
+ display: flex;
+ width: 455px;
+ flex-direction: column;
+ gap: 30px;
+ align-items: center;
+ background-color: transparent;
+ border: 1px solid rgba(186, 255, 255, 0.2);
+ border-radius: 15px;
+ padding: 30px 40px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#seletor {
+ width: 300px;
+ height: 30px;
+ font-size: 16px;
+ color: black;
+ background-color: white;
+ border-radius: 8px;
+ border: 1px solid #dddddd;
+
+}
+
+#butao {
+ font-size: 1rem;
+ color: #ffffff;
+ background-color: #6f9dfd;
+ border-radius: 8px;
+ border: 1px solid #dddddd; 
+ box-shadow: 0 2px 5px rgb(0, 0, 0,0.1);
+ cursor: pointer;
+ padding: 10px 16px;
+}
+
+.texto{
+   padding: 15px;
+   font-size: 1.5rem;
+   color: #333;
+   text-align: center; 
+
+}

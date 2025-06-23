@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="humor.js"></script>
+    <title>Verificação de humor</title>
+</head>
+<body>
+
+        <div class="humor">
+
+         <div class="t1">
+           <h1 id="titulo">Como você está se sentindo hoje?</h1>
+         </div>
+
+         <div class="detector-butao">
+
+          <select id="seletor" name="seletor de humor" required="required"> 
+            <option value="1">Escolha o seu humor</option>
+            <option value="feliz">Estou feliz</option>
+            <option value="triste">Estou triste</option>
+            <option value="estressado">Estou estressado</option>
+            <option value="ansioso">Estou ansioso</option>
+            <option value="calmo">Estou calmo</option>
+            <option value="animado">Estou animado</option>
+            <option value="irritado">Estou irritado</option>
+          </select>
+
+         <button id="butao" onclick="Humorescolhido()">Humor escolhido!</button>
+         </div>
+
+         <div class="texto">
+         <p id="mensagem"></p>
+         </div>
+         
+        </div>
+
+</body>
+</html>
